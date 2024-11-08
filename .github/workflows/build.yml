@@ -22,4 +22,4 @@ jobs:
           flask --app app run &
       - name: 'test'
         run: |
-          curl -ik localhost:3000
+          curl -ik localhost:5000
